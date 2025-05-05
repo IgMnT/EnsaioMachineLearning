@@ -1,0 +1,4 @@
+Vértice 0 -> Cor 0
+Vértice 1 -> Cor 1
+Vértice 2 -> Cor 2
+Vértice 3 -> Cor 1
