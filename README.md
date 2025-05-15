@@ -270,8 +270,191 @@ MAE:  17.244236014680347
 MAPE:  8.678785850035073
 
 
+6.5 Sobre os dados de validação
+
+Linear Regression:
+
+R2:  0.03992483038154071
+MSE:  458.4470418439312
+RMSE:  21.41137645841414
+MAE:  17.039753759960327
+MAPE:  8.682541883735295
+
+Decision Tree Regressor:
+
+Validation metrics
+R2:  -0.2963098163821809
+MSE:  619.002990015704
+RMSE:  24.879770698615854
+MAE:  17.182847136642756
+MAPE:  6.948513378533314
+
+Random Forest Regresson:
+
+R2:  0.33047687588454955
+MSE:  319.70506623852793
+RMSE:  17.880298270401642
+MAE:  13.055975049586678
+MAPE:  7.059521218403213
+
+Polinomial Regression:
+
+R2:  0.06647668389711647
+MSE:  445.76822347127546
+RMSE:  21.11322390046758
+MAE:  16.74993909048403
+MAPE:  8.547931034605392
+
+Linear Regression with Lasso:
+
+R2:  0.007883642924698453
+MSE:  473.7470809154487
+RMSE:  21.76573180289256
+MAE:  17.26492176467576
+MAPE:  8.695808367641687
+
+Linear Regression with Ridge:
+
+R2:  0.03992810824954407
+MSE:  458.4454766238971
+RMSE:  21.41133990725235
+MAE:  17.0394715713122
+MAPE:  8.682412484475343
+
+Linear Regression with ElasticNet;
+
+R2:  0.00811707101546788
+MSE:  473.6356162915494
+RMSE:  21.76317109916543
+MAE:  17.26290253848956
+MAPE:  8.694035085887595
+
+Polinomial Regression with Lasso:
+
+R2:  0.009631007774810185
+MSE:  472.91269390919564
+RMSE:  21.746555909136408
+MAE:  17.238378728440562
+MAPE:  8.681846557814456
+
+Polinomial Regression with Ridge:
+
+R2:  0.06769929966791688
+MSE:  445.1844102437571
+RMSE:  21.099393598958173
+MAE:  16.73874061169059
+MAPE:  8.568992470935266
+
+Polinomial Regression with ElasticNet:
+
+R2:  0.012781775822342856
+MSE:  471.4081655799173
+RMSE:  21.711936016392396
+MAE:  17.19996619878308
+MAPE:  8.675108462242978
+
+6.6 Sobre os dados de teste
 
 
+Linear Regression:
+
+R2:  0.052317119521687494
+MSE:  461.42771933638954
+RMSE:  21.480868682071254
+MAE:  17.12996509166612
+MAPE:  8.521859277849835
+
+Decision Tree Regressor:
+
+R2:  -0.23845917544438677
+MSE:  603.0069811202068
+RMSE:  24.556200461802042
+MAE:  16.936443045495338
+MAPE:  6.4533779049370885
+
+Random Forest Regresson:
+
+R2:  0.35180132044863355
+MSE:  315.60856964229083
+RMSE:  17.765375584048055
+MAE:  13.043921179638874
+MAPE:  6.51997591465694
+
+Polinomial Regression:
+
+R2:  0.0900793432990108
+MSE:  443.0412557275438
+RMSE:  21.04854521641683
+MAE:  16.720535025987548
+MAPE:  8.242463577057904
+
+Linear Regression with Lasso:
+
+R2:  0.007646329790263473
+MSE:  483.1779704502674
+RMSE:  21.981309570866504
+MAE:  17.472989425619936
+MAPE:  8.753477187350732
+
+
+Linear Regression with Ridge:
+
+R2:  0.05231017186224829
+MSE:  461.43110215855063
+RMSE:  21.48094742227518
+MAE:  17.129678033478562
+MAPE:  8.52281549810294
+
+Linear Regression with ElasticNet;
+
+R2:  0.007940270418991702
+MSE:  483.03485047128675
+RMSE:  21.97805383720967
+MAE:  17.470258805997627
+MAPE:  8.744584554552917
+
+Polinomial Regression with Lasso:
+
+R2:  0.00837248361268117
+MSE:  482.8244054454881
+RMSE:  21.97326569824085
+MAE:  17.456853946046976
+MAPE:  8.75607156019417
+
+Polinomial Regression with Ridge:
+
+R2:  0.08916736343845177
+MSE:  443.48529961163933
+RMSE:  21.059090664405225
+MAE:  16.728878813016124
+MAPE:  8.288682480961148
+
+Polinomial Regression with ElasticNet:
+
+R2:  0.010691921493419465
+MSE:  481.6950688778471
+RMSE:  21.947552685387205
+MAE:  17.42552082025263
+MAPE:  8.751067050702328
+
+Ensaio de Clusterização:
+
+6.7 Sobre os dados de treinamento
+
+KMeans: 
+
+Silhouette Score:  0.14214752184998414
+
+Affinity Propagation:
+
+Silhouette Score:  0.1693882248493382
+
+7. Conclusões
+Nesse ensaio de Machine Learning, consegui adquirir experiência e entender melhor sobre os limites dos algoritmos entre os estados de underffiting e overfitting. Algoritmos baseados em árvores são sensível quanto a profundidade do crescimento e do número de árvores na floresta, fazendo com que a escolha correta dos valores desses parâmetros impeçam os
+algoritmos de entrar no estado de overfitting. Os algoritmos de regressão, por outro lado, são sensíveis ao grau do polinômio. Esse parâmetro controla o limite entre o estado de underfitting e overfitting desses algoritmos. Esse ensaio de Machine Learning foi muito importante para aprofundar o entendimento sobre o funcionamento de diversos algoritmos de classificação, regressão e clusterização e quais os principais parâmetros de controle entre os estados de underfitting e overfitting.
+
+8. Próximos passos
+Como próximos passos desse ensaio, pretendo ensaiar novos algoritmos de Machine Learning e usar diferentes conjuntos de dados para aumentar o conhecimento sobre os algoritmos e quais cenários são mais favoráveis para o aumento da performance dos mesmos.
 
 
 
